@@ -1,10 +1,20 @@
-
+//
+//  main.cpp
+//  test
+//
+//  Created by 乔运浩 on 2018/11/11.
+//  Copyright © 2018 乔运浩. All rights reserved.
+//
+/*
+leetcode 945
+变长数组排序后，直接hash，使用线性探查。重复元素占了后边元素位置，和先放后边元素再放重复元素的到的结果是一样的。
+*/
 #include<iostream>
 #include<vector>
 #include<algorithm>
 using namespace std;
 class Solution {
-修改了这个
+public:
     int minIncrementForUnique(vector<int>& A) {
         bool hashTable[81000] = {false};
         sort(A.begin(),A.end());
