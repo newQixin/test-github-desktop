@@ -10,7 +10,7 @@ leetcode 945
 变长数组排序后，直接hash，使用线性探查。重复元素占了后边元素位置，和先放后边元素再放重复元素的到的结果是一样的。
 */
 #include<iostream>
-#include<vector>
+艰苦开卷考
 #include<algorithm>
 using namespace std;
 class Solution {
